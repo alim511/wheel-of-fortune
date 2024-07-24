@@ -49,7 +49,6 @@ function rotate() {
   ctx.canvas.style.transform = `rotate(${ang - PI / 2}rad)`
   spinEl.textContent = !angVel ? 'SPIN' : sector.label
   spinEl.style.background = sector.color
-  alert(`The winner is: ${sector.label}`)
 }
 
 function frame() {
